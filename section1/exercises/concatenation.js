@@ -22,15 +22,20 @@ var creatures = "unicorns";
 console.log("My zoo has " + numberOfCreatures + " " + creatures + "!")
 
 // YOU DO: What data type will be logged to the console as a result of line 22? Explain.
-// Your answer and explanation here: 
+// Your answer and explanation here:
 
+/* A string will be logged to the console because of type coercion. Javasscript is working to
+   help us out by converting numberOfCreatures to a string since we are combining a Number data
+   type with a string in line 22.*/
 
 // YOU DO:
 // Write code that combines the variables below into a string that
 // reads "The quick red fox jumped over the lazy brown dog":
 var speedy = "quick red fox";
 var slowPoke = "lazy brown dog";
+var fullSentence = "The " + speedy + " jumped over the " + slowPoke;
 
+console.log(fullSentence);
 
 // YOU DO:
 // Write code that combines the variables below into a string that
@@ -40,16 +45,22 @@ var slowPoke = "lazy brown dog";
 slowPoke = "tortoise";
 speedy = "hare";
 
+console.log("In a predictable result, the " + slowPoke + " beat the " + speedy + "!");
+
 
 // YOU DO:
-// Declare three variables, name/content/data type of your choice. Think carefully about what 
+// Declare three variables, name/content/data type of your choice. Think carefully about what
   // you name the variables. Remember, the goal is to be concise but descriptive (it's a hard balance!)
   // Then, log out ONE sentence that incorporates all THREE variables.
+var character = "Donkey";
+var numOfWaffles = 7;
+var food = "Waffles";
+var dialogue = ": Cuz in the morning, I'm making "
 
-
+console.log(character + dialogue + numOfWaffles + " " + food + "!");
 //-------------------
 // FINAL CHECK
 //-------------------
 
-// Did you run this file in your terminal to make sure everything printed out to the console 
+// Did you run this file in your terminal to make sure everything printed out to the console
   // as you would expect? You should be doing this by now, and getting into the habit of it.
