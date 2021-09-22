@@ -116,7 +116,7 @@ var chargerType = "car";
 // Write your conditional here
 
 //Checks to see whether user's phone battery is 15% charged or higher
-if (percentBatteryLeft >= 15){
+if (percentBatteryLeft >= 15) {
   //Returns a message to the user informing them they can call an Uber
   console.log("You can call an Uber");
 //Checks to see whether the user has a car charger
