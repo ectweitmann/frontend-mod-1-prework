@@ -19,8 +19,8 @@ var stringTeachers = "4";
 var numberDogs = 0;
 
 // EXAMPLE: log the result of the comparison: is numberTeachers greater than numberStudents?
-console.log("Is numberTeachers greater than numberStudents?", numberTeachers > numberStudents);
 // this should log: "Is numberTeachers greater than numberStudents?" false
+console.log("Is numberTeachers greater than numberStudents?", numberTeachers > numberStudents);
 
 // YOU DO: log the result of the comparison: is numberTeachers less than numberStudents?
 // this should log: true
@@ -39,6 +39,7 @@ perform this evaluation
 // YOU DO: log the result of the comparison: is numberTeachers strictly equal to stringTeachers? (use the === operator)
 // this should log: false
 console.log("Is numberTeachers strictly equal to stringTeachers?", numberTeachers === stringTeachers);
+
 /*
 Note: the strictly equal to operator compares the value of the variable in addition to the type of the variable.
 since the numberTeachers is an integer value and the stringTeachers is a string value, although they are both equal to 4,
@@ -77,12 +78,12 @@ console.log("Is numberStudents less than or equal to 21?", numberStudents <= 21)
 // in English, explaining what that line of code is doing, including what the comparison will evaluate to.
 // Be as technically precise as possible, but don't just copy and paste a definition from the readings.
 // Make sure YOU can explain it that way!
-
 console.log(4 < 9);
-//YOU DO: Explain.
 
+//YOU DO: Explain.
 var books = 3;
 console.log(4 < books);
+
 // YOU DO: Explain.
 /*
 Line 85 is comparing whether the number 4 is less than the value of the variable books, which is 3.
@@ -92,6 +93,7 @@ The comparison will evaluate to false.
 var friends = 6;
 var siblings = 2;
 console.log(friends > siblings);
+
 // YOU DO: Explain.
 /*
 Line 94 is comparing the value of the variable friends to the value of the variable siblings to see
@@ -103,6 +105,7 @@ This comparison will evaluate to true.
 var attendees = 9;
 var meals = 8;
 console.log(attendees !== meals);
+
 // YOU DO: Explain.
 /*
 Line 105 is comparing the value of the attendees variable to that of the variable meals to see whether
@@ -121,6 +124,7 @@ var finishedHomework = false;
 // EXAMPLE:
 // Determine if the user is hungry and has completed their homework
 console.log(isHungry && finishedHomework);
+
 // Determine if the user is hungry or has completed their homework
 console.log(isHungry || finishedHomework);
 

@@ -15,7 +15,7 @@ Make sure to run the file with node in your command line.
 // EXAMPLE: Write a function below that, when called will log "Severus Snape" to the console
 function printName() {
   console.log("Severus Snape");
-};
+}
 
 printName();
 printName();
@@ -58,7 +58,7 @@ sum(99, 1);
 // YOU DO🎈: Write a function that takes in two strings and prints a concatenation
 // of those two strings, for example the arguments could be ("Oscar", "Ruck") and
 // the end result might be "Oscar and Ruck are BFFS".  Then, call that function.
-function tell_Secret(name1, name2) {
+function tellSecret(name1, name2) {
   console.log("You'd never guess, but " + name1 + " and " + name2 + " are evil twins!");
 }
 
