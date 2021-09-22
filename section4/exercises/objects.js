@@ -27,7 +27,7 @@ console.log(foods);
 
 // YOU DO: Write code below that will declare a variable that stores an Object Literal of animal names and
 // the number of that type of animal at the zoo.
-var zoo = {
+var zooAnimals = {
   lions: 9,
   hippos: 4,
   giraffes: 3
@@ -35,20 +35,20 @@ var zoo = {
 
 // Using the zoo that you created above, log the value of the first item in
 // the Object
-console.log(zoo.lions);
+console.log(zooAnimals.lions);
 
 // Add an animal to the zoo Object, and log the updated Object.
-zoo.zebras = 11;
-console.log(zoo);
+zooAnimals.zebras = 11;
+console.log(zooAnimals);
 
 // Change the value for at least one of your animal keys, and log the updated Object.
-zoo.hippos = 5;
-zoo.giraffes = 6;
-console.log(zoo);
+zooAnimals.hippos = 5;
+zooAnimals.giraffes = 6;
+console.log(zooAnimals);
 
 // Add another animal to the zoo Object, and log the updated Object.
-zoo.lemurs = 47;
-console.log(zoo);
+zooAnimals.lemurs = 47;
+console.log(zooAnimals);
 
 //-------------------
 // Part 2: Email

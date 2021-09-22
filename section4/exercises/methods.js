@@ -21,7 +21,7 @@ var lunchOrder = {
     console.log("Your order will be ready shortly!");
   },
   complete: function() {
-    console.log("Your is complete and ready for pickup!");
+    console.log("Your order is complete and ready for pickup!");
   }
 };
 
