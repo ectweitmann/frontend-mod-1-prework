@@ -23,15 +23,16 @@ console.log(enrolledStudents);
 // YOU DO:
 // Write code below to save the string 'Harry Potter must not return to Hogwarts!'
 // log that variable to the console.
-var doby = "Harry Potter must not return to Hogwarts!";
-console.log(doby);
+var dobySays = "Harry Potter must not return to Hogwarts!";
+console.log(dobySays);
 
 // YOU DO:
 // Declare three variables, named `firstName`, `isHungry` and `numberOfPets`.
   // Store the appropriate data types in each.
 // log all three variables to the console.
-var firstName, isHungry, numberOfPets;
-firstName = "Ethan"; isHungry = true; numberOfPets = 1;
+var firstName = "Ethan";
+var isHungry = true;
+var numberOfPets = 1;
 console.log(firstName, isHungry, numberOfPets);
 
 // IN WORDS:
@@ -46,7 +47,9 @@ console.log(firstName, isHungry, numberOfPets);
 // Re-assign the values to the three variables from the previous challenge to different
   // values (but same data type).
 // log all three variables to the console.
-firstName = "Emaly"; isHungry = false; numberOfPets = 0;
+firstName = "Emaly";
+isHungry = false;
+numberOfPets = 0;
 console.log(firstName, isHungry, numberOfPets);
 
 

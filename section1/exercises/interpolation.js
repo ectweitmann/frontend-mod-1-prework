@@ -52,7 +52,7 @@ console.log(`In a predictable result, the ${slowPoke} beat the ${speedy}!`);
   // you name the variables. Remember, the goal is to be concise but descriptive (it's a hard balance!)
   // Then, log out ONE sentence that incorporates all THREE variables uisng interpolation.
 var food = "Mac n' Cheese";
-var mix_in = "Hot Cheetos";
+var mixIn = "Hot Cheetos";
 var numOfCheetos = 6;
 console.log(`Try adding ${numOfCheetos} crushed ${mix_in} to your ${food}, it's delicious!`);
 
